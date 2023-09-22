@@ -2,7 +2,7 @@
   "name": "test",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://anastasiiapavlovska.github.io/goit-react-hw-02-feedback/",
+  "homepage": "https://anastasiiapavlovska.github.io/goit-react-hw-04-feedback/",
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
@@ -14,6 +14,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
+    "styled-components": "^5.3.9",
     "web-vitals": "^2.1.4",
     "yup": "^1.2.0"
   },
@@ -44,6 +45,7 @@
   },
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.0",
-    "@types/prop-types": "^15.7.5"
+    "@types/prop-types": "^15.7.5",
+    "@types/styled-components": "^5.1.27"
   }
 }

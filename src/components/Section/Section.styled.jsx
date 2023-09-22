@@ -1,16 +1,16 @@
-import styled from '@emotion/styled';
+import { styled } from 'styled-components';
 
+const Container = styled.div`
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 40px 0 60px;
+`
 
-export const SectionStyle = styled.div`
- font-size: 40px; 
-  font-weight: 700; 
-  color: black; 
-  line-height: 1.8; 
-  text-align: center;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); 
-  `;
+const TitleElement = styled.h2`
+    margin-top: 40px;
+    font-weight: 700;
+    font-size: 38px;
+`
 
-    export const SectionContainer = styled.div`
-  margin-top: 50px;
- 
-`;
+export {Container, TitleElement}
