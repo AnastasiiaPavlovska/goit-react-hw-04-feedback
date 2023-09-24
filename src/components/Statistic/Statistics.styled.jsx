@@ -1,4 +1,4 @@
-import { styled } from 'styled-components';
+import styled from 'styled-components';
 
 const ListContainer = styled.ul`
     padding-left: 5px;
